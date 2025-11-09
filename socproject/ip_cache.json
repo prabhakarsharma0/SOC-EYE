@@ -1,0 +1,96 @@
+{
+  "54.85.199.222": {
+    "info": {
+      "ip": "54.85.199.222",
+      "hostname": "ec2-54-85-199-222.compute-1.amazonaws.com",
+      "city": "Ashburn",
+      "region": "Virginia",
+      "country": "US",
+      "loc": "39.0437,-77.4875",
+      "org": "AS14618 Amazon.com, Inc.",
+      "postal": "20147",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "verdict": "Suspicious (Cloud)",
+    "cached": true,
+    "color": "red"
+  },
+  "54.89.144.122": {
+    "info": {
+      "ip": "54.89.144.122",
+      "hostname": "ec2-54-89-144-122.compute-1.amazonaws.com",
+      "city": "Ashburn",
+      "region": "Virginia",
+      "country": "US",
+      "loc": "39.0437,-77.4875",
+      "org": "AS14618 Amazon.com, Inc.",
+      "postal": "20147",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "abuse": {},
+    "vt": {},
+    "verdict": "Suspicious (Cloud)"
+  },
+  "54.89.144.222": {
+    "info": {
+      "ip": "54.89.144.222",
+      "hostname": "ec2-54-89-144-222.compute-1.amazonaws.com",
+      "city": "Ashburn",
+      "region": "Virginia",
+      "country": "US",
+      "loc": "39.0437,-77.4875",
+      "org": "AS14618 Amazon.com, Inc.",
+      "postal": "20147",
+      "timezone": "America/New_York",
+      "readme": "https://ipinfo.io/missingauth"
+    },
+    "abuse": {},
+    "vt": {},
+    "verdict": "Suspicious (Cloud)"
+  },
+  "0": {
+    "ip": "0",
+    "org": "Unknown",
+    "location": "Unknown",
+    "verdict": "Error",
+    "abuse_score": "N/A",
+    "vt_malicious": "N/A",
+    "cached": true,
+    "suggestion": "Monitor and enrich (DNS, whois).",
+    "color": "green"
+  },
+  "54.85.199.221": {
+    "ip": "54.85.199.221",
+    "org": "AS14618 Amazon.com, Inc.",
+    "location": "Ashburn, US",
+    "verdict": "Suspicious (Cloud)",
+    "abuse_score": 0,
+    "vt_malicious": 0,
+    "cached": true,
+    "suggestion": "Monitor and enrich (DNS, whois).",
+    "color": "red"
+  },
+  "54.85.199.220": {
+    "ip": "54.85.199.220",
+    "cached": false,
+    "org": "AS14618 Amazon.com, Inc.",
+    "location": "Ashburn, US",
+    "abuse_score": 0,
+    "vt_malicious": 0,
+    "verdict": "Suspicious (Cloud)",
+    "color": "orange",
+    "advice": "This seems to be a cloud server. Usually used by apps or hosting services."
+  },
+  "8.8.8.8": {
+    "ip": "8.8.8.8",
+    "org": "AS15169 Google LLC",
+    "location": "Mountain View, US",
+    "verdict": "Suspicious (Cloud)",
+    "abuse_score": 0,
+    "vt_malicious": 0,
+    "cached": false,
+    "advice": "Monitor and enrich (DNS, whois). Consider blocking if confirmed malicious."
+  }
+}

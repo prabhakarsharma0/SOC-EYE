@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    width: 420px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+h1 {
+    color: #38bdf8;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-right: 5px;
+}
+
+form button {
+    background: #38bdf8;
+    border: none;
+    color: #0f172a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #0ea5e9;
+}
+
+.result-card {
+    background: #0f172a;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.verdict.safe { color: #10b981; font-weight: bold; }
+.verdict.suspicious { color: #facc15; font-weight: bold; }
+.verdict.malicious { color: #ef4444; font-weight: bold; }
+
+footer {
+    margin-top: 15px;
+    font-size: 0.85em;
+    color: #94a3b8;
+}
+
+/* Loader animation */
+.loader {
+    border: 5px solid #1e293b;
+    border-top: 5px solid #38bdf8;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 15px auto;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
