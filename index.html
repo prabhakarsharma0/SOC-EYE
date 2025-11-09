@@ -3,16 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SOC-EYE Project</title>
+  <title>SOC-EYE | Cyber Security Project</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      animation: fadeInDown 1.5s ease-in-out;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      text-align: center;
+      margin-bottom: 30px;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: #00c6ff;
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    a.button:hover {
+      background-color: #0072ff;
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0, 198, 255, 0.7);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .glow {
+      text-shadow: 0 0 15px #00c6ff, 0 0 30px #0072ff;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; margin: 50px; text-align: center;">
-  <h1>Welcome to SOC-EYE Project</h1>
-  <p>This project provides Security Operations Center (SOC) insights and monitoring capabilities.</p>
+<body>
+  <h1 class="glow">⚡ Welcome to SOC-EYE</h1>
   <p>
-    GitHub Repository: 
-    <a href="https://github.com/prabhakarsharma0/SOC-EYE" target="_blank" style="color: blue; text-decoration: none;">
-      View on GitHub
-    </a>
+    A Security Operations Center (SOC) companion that provides real-time insights, monitoring,
+    and analytics to help security analysts stay one step ahead of threats.
   </p>
+
+  <a href="https://github.com/prabhakarsharma0/SOC-EYE" target="_blank" class="button">🚀 View on GitHub</a>
+
+  <footer>Developed with ❤️ by Prabhakar Sharma</footer>
 </body>
 </html>
